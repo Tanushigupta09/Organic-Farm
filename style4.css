@@ -1,0 +1,159 @@
+* {
+  margin: 0px;
+}
+.container {
+  height: 75px;
+
+  display: flex;
+  justify-content: space-between;
+}
+.box1 {
+  width: 150px;
+}
+.box2 {
+  width: 230px;
+}
+.box2 > h1 {
+  font-size: 45px;
+  padding-top: 12px;
+  color: orange;
+  text-align: center;
+}
+.box3 {
+  width: 250px;
+
+  display: flex;
+  justify-content: space-evenly;
+}
+.small1 {
+  width: 50px;
+  height: 50px;
+
+  margin-top: 10px;
+  border-radius: 50%;
+  background-color: rgba(39, 177, 39, 0.655);
+}
+.small2 {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+
+  margin-top: 10px;
+  background-color: rgba(39, 177, 39, 0.655);
+}
+.small3 {
+  width: 50px;
+  height: 50px;
+
+  border-radius: 50%;
+  margin-top: 10px;
+  background-color: rgba(39, 177, 39, 0.655);
+}
+.small4 {
+  width: 50px;
+  height: 50px;
+
+  margin-top: 10px;
+  border-radius: 50%;
+  background-color: rgba(39, 177, 39, 0.655);
+}
+.container1 {
+  height: 75px;
+
+  background-color: rgba(39, 177, 39, 0.655);
+}
+li a {
+  display: block;
+  color: whitesmoke;
+  text-decoration: none;
+  float: left;
+
+  font-size: 25px;
+  margin-left: 150px;
+  padding-top: 22px;
+}
+
+li a:hover {
+  background-color: orange;
+  height: 53px;
+}
+.slogan {
+  font-family: "Amatic SC", sans-serif;
+  margin-left: 55px;
+  font-size: 35px;
+}
+.slogan > h1 {
+  text-align: center;
+}
+.footer1 {
+  height: 350px;
+  margin-top: 56px;
+  background-color: rgba(39, 177, 39, 0.655);
+  display: flex;
+  justify-content: space-around;
+}
+.drop1 {
+  width: 250px;
+}
+.drop1 > img {
+  margin-top: 45px;
+  margin-left: 55px;
+}
+.drop1 > p {
+  margin-top: 35px;
+  color: black;
+  margin-left: 20px;
+}
+.drop2 {
+  width: 300px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.drop2 > h3 {
+  margin-top: 25px;
+  margin-left: 85px;
+}
+.drop2 > p {
+  margin-left: 65px;
+}
+.drop3 {
+  width: 350px;
+
+  display: flex;
+  flex-direction: column;
+}
+.drop3 > h3 {
+  margin-top: 65px;
+  margin-left: 85px;
+}
+.drop3 > p {
+  margin-left: 85px;
+  margin-top: 40px;
+}
+.drop4 {
+  width: 300px;
+}
+.drop4 > h3 {
+  margin-top: 65px;
+  margin-left: 70px;
+}
+.drop4 > img {
+  margin-left: 75px;
+  margin-top: 35px;
+}
+.drop5 {
+  width: 300px;
+
+  display: flex;
+  flex-direction: column;
+}
+.drop5 > h3 {
+  margin-top: 65px;
+  margin-left: 70px;
+}
+.drop5 > p {
+  margin-top: 45px;
+  margin-left: 50px;
+}
